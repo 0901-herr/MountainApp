@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Blue" representedClassName=".Blue" syncable="YES">
+        <attribute name="alarm" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskColor" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BlueData" representedClassName=".BlueData" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Green" representedClassName=".Green" syncable="YES">
+        <attribute name="alarm" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskColor" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GreenData" representedClassName=".GreenData" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HistoryTimeData" representedClassName=".HistoryTimeData" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="createdAtDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAtStr" optional="YES" attributeType="String"/>
+        <attribute name="second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Orange" representedClassName=".Orange" syncable="YES">
+        <attribute name="alarm" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskColor" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrangeData" representedClassName=".OrangeData" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Yellow" representedClassName=".Yellow" syncable="YES">
+        <attribute name="alarm" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskColor" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="YellowData" representedClassName=".YellowData" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="second" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Blue" positionX="81" positionY="144" width="128" height="103"/>
+        <element name="Green" positionX="72" positionY="135" width="128" height="103"/>
+        <element name="Orange" positionX="63" positionY="126" width="128" height="103"/>
+        <element name="Yellow" positionX="126" positionY="225" width="128" height="103"/>
+        <element name="BlueData" positionX="81" positionY="180" width="128" height="88"/>
+        <element name="GreenData" positionX="90" positionY="189" width="128" height="88"/>
+        <element name="OrangeData" positionX="117" positionY="216" width="128" height="88"/>
+        <element name="YellowData" positionX="126" positionY="234" width="128" height="88"/>
+        <element name="HistoryTimeData" positionX="135" positionY="243" width="128" height="118"/>
+    </elements>
+</model>
